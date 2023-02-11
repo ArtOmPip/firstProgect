@@ -1,5 +1,3 @@
-#Создай собственный Шутер!
-
 from pygame import *
 from random import randint 
 win_x = 700
