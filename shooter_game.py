@@ -28,7 +28,6 @@ game_win = font.render('YOU WIN!', True, (255, 215, 0))
 
 game_lose = font.render('YOU LOSE!', True, (255, 215, 0))
 
-
 class GameSprite(sprite.Sprite):
     def __init__(self, player_image, player_x, player_y, player_speed):
         super().__init__()
